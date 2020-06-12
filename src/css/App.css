@@ -1,8 +1,22 @@
 .container {
-  background-color: #fff;
-  /* height: 100vh; */
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .display {
+  background-color: #fff;
+  border-radius: 4px;
   display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  width: 400px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+
+.display h1 {
+   display: block;
+   width: 100%;
+   text-align: center;
 }
