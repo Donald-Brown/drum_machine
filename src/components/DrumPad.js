@@ -57,6 +57,7 @@ document.addEventListener("keydown", (e) => {
 
   if (audio) {
     //console.log(audio);
+    audio.currentTime = 0;
     const parent = audio.parentNode;
     parent.classList.add("active");
     audio.play();
